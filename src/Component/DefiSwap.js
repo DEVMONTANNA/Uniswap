@@ -100,6 +100,8 @@ const DefiSwap = () => {
                 Provide liquidity to pools on the Uniswap Protocol and earn fees
                 on swaps.
               </h1>
+             
+
               <div>
                 <img className="w-[100%] nn " src="../up.png " />
               </div>
