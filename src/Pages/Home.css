@@ -1,0 +1,21 @@
+
+.succ.sticky {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+@media (max-width: 1024px) {
+  .succ {
+    position: relative;
+  }
+  .succ.sticky {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+  }
+}
