@@ -9,34 +9,33 @@ const DefiSwap = () => {
           <div className="w-[70%]  text-[30px]  text-[black]  text-center    left-1/2 transform translate-x-[25%]  ">
             <p>Swap Anytime Anywhere</p>
           </div>
-          <div className=" block border   p-2 rounded-xl">
-            <div className=" rounded-xl  border-[#2222220d]  border border-solid flex justify-between p-3 ">
-              <div className="block ">
+          <div className=" block border bg-[#ffffff]  p-2 rounded-xl">
+            <div className=" rounded-xl  border-[#2222220d]  border border-solid flex justify-between p-3">
+              <div className="block">
                 <p className="text-[25px] text-[#7d7d7d]">Sell</p>
                 <input
+                  className="w-[30%] h-[40px]  pl-2 border border-[#22222212]  active:border-blue-500 font-medium"
                   placeholder="0"
-                  className="border border-[red] w-[25%] h-8 text-[20px]  text-[#7d7d7d] bbb p-1 "
                 />
-                {/* <p className="text-[25px]  text-[#7d7d7d]  ">0</p> */}
                 <p className=" text-[#7d7d7d]">$0</p>
               </div>
-              <div className="w-[28%] ">
-                <button className="w-[100%] items-center justify-evenly flex bg-[#fffff] h-[43px]  text-[17px] mt-7 text-[black] shadow-lg  bg-white  border-[#2222220d]  border border-solid rounded-full">
-                  <img className="w-[25%]" src="eth.png" /> ETH{" "}
+              <div className="w-[28%] ttt ">
+                <button className="w-[100%] items-center   tttt  justify-evenly flex bg-[#fffff] h-[43px]  text-[17px] mt-7 text-[black] shadow-lg  bg-white  border-[#2222220d]  border border-solid rounded-full">
+                  <img className="w-[25%] hg" src="eth.png " /> ETH{" "}
                   <i class="fa-solid fa-caret-down"></i>
                 </button>
               </div>
             </div>
             <div className=" mt-2 flex rounded-xl  border-[#2222220d] bg-[#f9f9f9] border border-solid justify-between p-3">
-              <div className="block bg-[red] ">
+              <div className="block">
                 <p className="text-[25px]  text-[#7d7d7d]">Buy</p>
                 <input
+                  className="w-[30%] yyy  pl-2 h-[40px] border border-[#22222212]  active:border-blue-500 font-medium"
                   placeholder="0"
-                  className="border border-[red] w-[35%] h-8 text-[20px] mt-4  text-[#7d7d7d] bbb p-1 "
                 />
               </div>
-              <div className="bg-yellow-500">
-                <button className=" p-[10px] mt-[30px] items-center mr-[60px] w-[100%] justify-between rounded-full flex bg-[#fc72ff] text-[white]">
+              <div className="ttt">
+                <button className="tt p-[5px] mt-[30px] w-[100%] rounded-full  bg-[#fc72ff] text-[white]">
                   Select token <i class="fa-solid fa-caret-down"></i>
                 </button>
               </div>
@@ -216,41 +215,41 @@ const DefiSwap = () => {
           </div>
           <hr className="mb-[20px]" />
           <div>
-            <h3>© 2025 - Dev Montanna</h3>
+            <h3>© 2025 - Uniswap Labs</h3>
           </div>
         </div>
         <div className="w-[50%]   ww p-[20px] ">
           <div className="  items-center www ">
             <ul className="flex   t">
-              <li className="w-1/2 p-2 font-bold cursor-pointer">
+              <li className="w-1/2 p-2 font-bold">
                 App
-                <ol className="font-normal mt-[8px] font-verdana text-[#7d7d7d] cursor-pointer">
+                <ol className="font-normal mt-[8px] font-verdana text-[#7d7d7d]">
                   <li>Trade</li>
                   <li>Explore</li>
                   <li>Pool</li>
                 </ol>
               </li>
-              <li className="w-1/2 p-2 font-bold cursor-pointer">
+              <li className="w-1/2 p-2 font-bold">
                 Company
-                <ol className="font-normal mt-[8px] font-verdana text-[#7d7d7d] cursor-pointer">
+                <ol className="font-normal mt-[8px] font-verdana text-[#7d7d7d]">
                   <li>Careers</li>
                   <li>Blog</li>
                   <li>Brand assets</li>
                 </ol>
               </li>
-              <li className="w-1/2 p-2 font-bold cursor-pointer">
+              <li className="w-1/2 p-2 font-bold">
                 Protocol
-                <ol className="font-normal mt-[8px] font-verdana text-[#7d7d7d] cursor-pointer">
-                  <li className="cursor-pointer">Vote</li>
-                  <li className="cursor-pointer">Governance</li>
-                  <li className="cursor-pointer">Developers</li>
+                <ol className="font-normal mt-[8px] font-verdana text-[#7d7d7d]">
+                  <li>Vote</li>
+                  <li>Governance</li>
+                  <li>Developers</li>
                 </ol>
               </li>
-              <li className="w-1/2 p-2 font-bold cursor-pointer">
+              <li className="w-1/2 p-2 font-bold">
                 Need help?
-                <ol className="font-normal mt-[8px] font-verdana text-[#7d7d7d] cursor-pointer">
-                  <li className="cursor-pointer">Help center</li>
-                  <li className="cursor-pointer">Contact us</li>
+                <ol className="font-normal mt-[8px] font-verdana text-[#7d7d7d]">
+                  <li>Help center</li>
+                  <li>Contact us</li>
                 </ol>
               </li>
             </ul>
