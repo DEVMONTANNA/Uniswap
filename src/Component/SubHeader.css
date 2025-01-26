@@ -17,7 +17,7 @@
     display: block;
   }
   .jjj {
-    margin-top: -4000px;
+    margin-top: -3500px;
   }
   .ll {
     margin-top: -100px;
@@ -143,4 +143,14 @@
 }
 .hh {
   display: none;
+}
+.bbb{
+  border: none;
+outline: auto;
+}
+.bbb:active{
+  border: transparent;
+}
+.bbb:focus{
+  border: transparent;
 }

@@ -23,7 +23,7 @@ const ScatteredImages = () => {
 
   return (
     <div
-      className=" jjj mt-[-2850px]  "
+      className="jjj  mt-[-2950px]  "
       style={{
         position: "relative",
         height: "100vh",

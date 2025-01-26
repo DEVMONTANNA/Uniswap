@@ -9,11 +9,15 @@ const DefiSwap = () => {
           <div className="w-[70%]  text-[30px]  text-[black]  text-center    left-1/2 transform translate-x-[25%]  ">
             <p>Swap Anytime Anywhere</p>
           </div>
-          <div className=" block border bg-[#ffffff]  p-2 rounded-xl">
-            <div className=" rounded-xl  border-[#2222220d]  border border-solid flex justify-between p-3">
-              <div className="block">
+          <div className=" block border   p-2 rounded-xl">
+            <div className=" rounded-xl  border-[#2222220d]  border border-solid flex justify-between p-3 ">
+              <div className="block ">
                 <p className="text-[25px] text-[#7d7d7d]">Sell</p>
-                <p className="text-[25px]  text-[#7d7d7d]  ">0</p>
+                <input
+                  placeholder="0"
+                  className="border border-[red] w-[25%] h-8 text-[20px]  text-[#7d7d7d] bbb p-1 "
+                />
+                {/* <p className="text-[25px]  text-[#7d7d7d]  ">0</p> */}
                 <p className=" text-[#7d7d7d]">$0</p>
               </div>
               <div className="w-[28%] ">
@@ -100,9 +104,7 @@ const DefiSwap = () => {
                 Provide liquidity to pools on the Uniswap Protocol and earn fees
                 on swaps.
               </h1>
-             
-              
-              
+
               <div>
                 <img className="w-[100%] nn " src="../up.png " />
               </div>
@@ -211,41 +213,41 @@ const DefiSwap = () => {
           </div>
           <hr className="mb-[20px]" />
           <div>
-            <h3>© 2025 - Uniswap Labs</h3>
+            <h3>© 2025 - Dev Montanna</h3>
           </div>
         </div>
         <div className="w-[50%]   ww p-[20px] ">
           <div className="  items-center www ">
             <ul className="flex   t">
-              <li className="w-1/2 p-2 font-bold">
+              <li className="w-1/2 p-2 font-bold cursor-pointer">
                 App
-                <ol className="font-normal mt-[8px] font-verdana text-[#7d7d7d]">
+                <ol className="font-normal mt-[8px] font-verdana text-[#7d7d7d] cursor-pointer">
                   <li>Trade</li>
                   <li>Explore</li>
                   <li>Pool</li>
                 </ol>
               </li>
-              <li className="w-1/2 p-2 font-bold">
+              <li className="w-1/2 p-2 font-bold cursor-pointer">
                 Company
-                <ol className="font-normal mt-[8px] font-verdana text-[#7d7d7d]">
+                <ol className="font-normal mt-[8px] font-verdana text-[#7d7d7d] cursor-pointer">
                   <li>Careers</li>
                   <li>Blog</li>
                   <li>Brand assets</li>
                 </ol>
               </li>
-              <li className="w-1/2 p-2 font-bold">
+              <li className="w-1/2 p-2 font-bold cursor-pointer">
                 Protocol
-                <ol className="font-normal mt-[8px] font-verdana text-[#7d7d7d]">
-                  <li>Vote</li>
-                  <li>Governance</li>
-                  <li>Developers</li>
+                <ol className="font-normal mt-[8px] font-verdana text-[#7d7d7d] cursor-pointer">
+                  <li className="cursor-pointer">Vote</li>
+                  <li className="cursor-pointer">Governance</li>
+                  <li className="cursor-pointer">Developers</li>
                 </ol>
               </li>
-              <li className="w-1/2 p-2 font-bold">
+              <li className="w-1/2 p-2 font-bold cursor-pointer">
                 Need help?
-                <ol className="font-normal mt-[8px] font-verdana text-[#7d7d7d]">
-                  <li>Help center</li>
-                  <li>Contact us</li>
+                <ol className="font-normal mt-[8px] font-verdana text-[#7d7d7d] cursor-pointer">
+                  <li className="cursor-pointer">Help center</li>
+                  <li className="cursor-pointer">Contact us</li>
                 </ol>
               </li>
             </ul>
