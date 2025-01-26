@@ -30,7 +30,10 @@ const DefiSwap = () => {
             <div className=" mt-2 flex rounded-xl  border-[#2222220d] bg-[#f9f9f9] border border-solid justify-between p-3">
               <div className="block">
                 <p className="text-[25px]  text-[#7d7d7d]">Buy</p>
-                <p className="text-[25px]  text-[#7d7d7d]">0</p>
+                <input
+                  placeholder="0"
+                  className="border border-[red] w-[25%] h-8 text-[20px]  text-[#7d7d7d] bbb p-1 "
+                />
               </div>
               <div className="">
                 <button className=" p-[5px] mt-[30px] w-[100%] rounded-full  bg-[#fc72ff] text-[white]">
@@ -38,6 +41,7 @@ const DefiSwap = () => {
                 </button>
               </div>
             </div>
+            
           </div>
           <button className=" p-[8px] mt-[8px] w-[100%] rounded-full text-verdana text-[20px]  bg-[rgb(249,219,250)] text-[#fc72ff]">
             Get started
