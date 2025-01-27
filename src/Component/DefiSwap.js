@@ -20,7 +20,7 @@ const DefiSwap = () => {
                 <p className=" text-[#7d7d7d]">$0</p>
               </div>
               <div className="w-[28%] ttt ">
-                <button className="w-[100%] items-center  tttt  justify-evenly flex bg-[#fffff] h-[43px]  text-[17px] mt-7 text-[black] shadow-lg  bg-white  border-[#2222220d]  border border-solid rounded-full">
+                <button className=" items-center  tttt  justify-evenly flex bg-[#fffff]   text-[17px] mt-7 text-[black] shadow-lg  bg-white  border-[#2222220d]  border border-solid rounded-full">
                   <img className="w-[25%] hg" src="eth.png " /> ETH{" "}
                   <i class="fa-solid fa-caret-down"></i>
                 </button>
@@ -34,8 +34,8 @@ const DefiSwap = () => {
                   placeholder="0"
                 />
               </div>
-              <div className="ttt">
-                <button className="tt p-[5px] mt-[30px] w-[100%] rounded-full  bg-[#fc72ff] text-[white]">
+              <div className="ttt bg-red-600 w-[30%]">
+                <button className="tt p-[5px]  mt-[30px] rounded-full  bg-[#fc72ff] text-[white]">
                   Select token <i class="fa-solid fa-caret-down"></i>
                 </button>
               </div>
@@ -215,7 +215,7 @@ const DefiSwap = () => {
           </div>
           <hr className="mb-[20px]" />
           <div>
-            <h3>© 2025 - Uniswap Labs</h3>
+            <h3>© 2025 - DEVMONTANA</h3>
           </div>
         </div>
         <div className="w-[50%]   ww p-[20px] ">
