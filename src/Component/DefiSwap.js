@@ -3,7 +3,7 @@ import React from "react";
 const DefiSwap = () => {
   return (
     <>
-      <div className="flex  justify-center  items-center   blur-xl h-[100vh]   w-[100%]"></div>
+      <div className="flex  justify-center  items-center    blur-xl h-[55vh]   w-[100%]"></div>
       <div className=" w-[100%]   top-[180px] flex justify-center   items-center absolute ">
         <div className="  ggg   w-[40%]  items-center block justify-center p-[50px]">
           <div className="w-[70%]  text-[30px]  text-[black]  text-center    left-1/2 transform translate-x-[25%]  ">
@@ -50,7 +50,7 @@ const DefiSwap = () => {
           </button>
         </div>
       </div>
-      <div className="p-[25px]  ll   mt-[0px]  ">
+      <div className="p-[25px]  ll   mt-[190px]  ">
         <div>
           <h1 className="text-[46px] p-[20px] kk">Go Direct to Defi</h1>
         </div>
