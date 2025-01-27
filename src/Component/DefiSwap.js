@@ -34,7 +34,7 @@ const DefiSwap = () => {
                   placeholder="0"
                 />
               </div>
-              <div className="ttt bg-red-600 w-[30%]">
+              <div className="ttt  w-[30%]">
                 <button className="tt p-[5px]  mt-[30px] rounded-full  bg-[#fc72ff] text-[white]">
                   Select token <i class="fa-solid fa-caret-down"></i>
                 </button>
