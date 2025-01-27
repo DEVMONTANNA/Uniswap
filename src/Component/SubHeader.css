@@ -18,10 +18,9 @@
   }
   .jjj {
     margin-top: -3000px;
+    display: none;
   }
-  .ll {
-    margin-top: -100px;
-  }
+
   .p {
     font-size: 18px;
     font-family: verdana;
@@ -134,13 +133,17 @@
     padding: 0;
     width: 80%;
   }
+  .hg{
+    height: 30px;
+    width: 20%;
+  }
   .ttt {
     width: 70%;
   }
   .tt {
     width: 100%;
     padding: 0;
-    
+
     height: 30px;
     margin-top: 50px;
   }

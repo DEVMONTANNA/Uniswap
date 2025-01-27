@@ -4,7 +4,7 @@ const DefiSwap = () => {
   return (
     <>
       <div className="flex  justify-center  items-center   blur-xl h-[100vh]   w-[100%]"></div>
-      <div className=" w-[100%]   top-[200px] flex justify-center   items-center absolute ">
+      <div className=" w-[100%]   top-[180px] flex justify-center   items-center absolute ">
         <div className="  ggg   w-[40%]  items-center block justify-center p-[50px]">
           <div className="w-[70%]  text-[30px]  text-[black]  text-center    left-1/2 transform translate-x-[25%]  ">
             <p>Swap Anytime Anywhere</p>
@@ -20,7 +20,7 @@ const DefiSwap = () => {
                 <p className=" text-[#7d7d7d]">$0</p>
               </div>
               <div className="w-[28%] ttt ">
-                <button className="w-[100%] items-center   tttt  justify-evenly flex bg-[#fffff] h-[43px]  text-[17px] mt-7 text-[black] shadow-lg  bg-white  border-[#2222220d]  border border-solid rounded-full">
+                <button className="w-[100%] items-center  tttt  justify-evenly flex bg-[#fffff] h-[43px]  text-[17px] mt-7 text-[black] shadow-lg  bg-white  border-[#2222220d]  border border-solid rounded-full">
                   <img className="w-[25%] hg" src="eth.png " /> ETH{" "}
                   <i class="fa-solid fa-caret-down"></i>
                 </button>
@@ -50,7 +50,7 @@ const DefiSwap = () => {
           </button>
         </div>
       </div>
-      <div className="p-[25px]  ll   mt-[-100px]  ">
+      <div className="p-[25px]  ll   mt-[0px]  ">
         <div>
           <h1 className="text-[46px] p-[20px] kk">Go Direct to Defi</h1>
         </div>
