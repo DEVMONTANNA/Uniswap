@@ -20,7 +20,7 @@ const SubHeader = () => {
                 toggle ? "block" : "hidden"
               }`}
             >
-              <ul className="flex flex-col items-center bg-green-500 w-[100%]  ">
+              <ul className="flex flex-col items-center bg-[#fff] w-[100%]  ">
                 <li className=" p-[5px] bg-[black]  text-[20px] font-[verdana] text-[white] w-[100%]  mt-[5px] text-center">
                   Trade
                 </li>
