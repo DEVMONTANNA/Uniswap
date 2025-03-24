@@ -16,18 +16,18 @@ const SubHeader = () => {
               <i className="menubarv fa-solid fa-bars "></i>
             </button>
             <div
-              className={` w-[100%] flex justify-center  absolute top-[160px] left-0 z-[50]  h-[140px] mt-[30px]  ${
+              className={` w-[100%] flex justify-center  absolute top-[160px]  left-0 z-[50]  h-[140px] mt-[30px]  ${
                 toggle ? "block" : "hidden"
               }`}
             >
               <ul className="flex flex-col items-center bg-green-500 w-[100%]  ">
-                <li className="ml-[10px] p-[5px] bg-[black]  text-[20px] font-[verdana] text-[white] w-[100%]  mt-[5px] text-center">
+                <li className=" p-[5px] bg-[black]  text-[20px] font-[verdana] text-[white] w-[100%]  mt-[5px] text-center">
                   Trade
                 </li>
-                <li className="ml-[10px] p-[5px] bg-[black]  text-[20px] font-[verdana] text-[white] w-[100%]  mt-[5px] text-center">
+                <li className=" p-[5px] bg-[black]  text-[20px] font-[verdana] text-[white] w-[100%]  mt-[5px] text-center">
                   Explore
                 </li>
-                <li className="ml-[10px] p-[5px] bg-[black]  text-[20px] font-[verdana] text-[white] w-[100%]  mt-[5px] text-center">
+                <li className=" p-[5px] bg-[black]  text-[20px] font-[verdana] text-[white] w-[100%]  mt-[5px] text-center">
                   Pool
                 </li>
               </ul>
