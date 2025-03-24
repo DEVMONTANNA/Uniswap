@@ -6,13 +6,10 @@
   .search {
     display: none !important;
   }
-  .v{
+  .v {
     float: left;
   }
-  .menubarv {
-    display: block !important;
-    cursor: pointer;
-  }
+
   .ggg {
     width: 100%;
   }
@@ -177,4 +174,14 @@
 }
 .bbb:focus {
   border: transparent;
+}
+
+.menubarv {
+  display: none !important;
+}
+
+@media screen and (max-width: 767px) {
+  .menubarv {
+    display: block !important;
+  }
 }

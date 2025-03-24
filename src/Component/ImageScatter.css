@@ -7,6 +7,11 @@
   border-radius: 50%; /* Optional for circle */
   animation: spin 10s linear infinite bounce 10s ease-in-out infinite; /* Adjust 2s for speed */
 }
+/* .menubarv {
+  display: none;
+} */
+@import "@fortawesome/fontawesome-free/css/all.min.css";
+
 
 @keyframes spin {
   from {

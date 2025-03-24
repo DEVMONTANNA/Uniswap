@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import "./SubHeader.css";
 import "./SubHeaderScript";
 
 const SubHeader = () => {
+  const [toggle, setToggle] = useState(false);
   return (
     <div>
       <header className="">
@@ -11,7 +12,26 @@ const SubHeader = () => {
             <div className="text-[#ee55f1] font-medium cursor-pointer ">
               UniSwap
             </div>
-            <i className="menubarv fa-solid fa-bars hidden"></i>
+            <button onClick={() => setToggle(!toggle)}>
+              <i className="menubarv fa-solid fa-bars "></i>
+            </button>
+            <div
+              className={` w-[100%] flex justify-center  absolute top-[160px] left-0 z-[50]  h-[140px] mt-[30px]  ${
+                toggle ? "block" : "hidden"
+              }`}
+            >
+              <ul className="flex flex-col items-center bg-green-500 w-[100%]  ">
+                <li className="ml-[10px] p-[5px] bg-[black]  text-[20px] font-[verdana] text-[white] w-[100%]  mt-[5px] text-center">
+                  Trade
+                </li>
+                <li className="ml-[10px] p-[5px] bg-[black]  text-[20px] font-[verdana] text-[white] w-[100%]  mt-[5px] text-center">
+                  Explore
+                </li>
+                <li className="ml-[10px] p-[5px] bg-[black]  text-[20px] font-[verdana] text-[white] w-[100%]  mt-[5px] text-center">
+                  Pool
+                </li>
+              </ul>
+            </div>
             <div className=" navmenu w-[50%]">
               <ul className="flex justify-around font-medium cursor-pointer  text-[#7d7d7d]">
                 <li>Trade</li>
