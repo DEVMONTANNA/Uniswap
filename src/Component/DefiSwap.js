@@ -203,12 +203,17 @@ const DefiSwap = () => {
       <div className=" pp flex ">
         <div className="w-[50%] w  p-[40px] pr-0  ">
           <div className="gap-x-8 mb-[100px] flex">
-           <a href="https://github.com/DEVMONTANNA/Uniswap.git"><button className="">
-              <i class="fab fa-github large-icon text-[30px]"></i>
-            </button></a>
-            <button>
-              <i className="fab fa-twitter text-[30px]"></i>
-            </button>
+            <a href="https://github.com/DEVMONTANNA/Uniswap.git">
+              <button className="">
+                <i class="fab fa-github large-icon text-[30px]"></i>
+              </button>
+            </a>
+            <a href="https://x.com/Montanna_016/photo">
+              {" "}
+              <button>
+                <i className="fab fa-twitter text-[30px]"></i>
+              </button>
+            </a>
             <button>
               <i class="fab fa-discord text-[30px]"></i>
             </button>
