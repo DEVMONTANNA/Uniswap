@@ -1,70 +1,82 @@
-# Getting Started with Create React App
+🦄 Uniswap clone website for educational purpose
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern DeFi Swap interface built with React + Tailwind CSS, inspired by Uniswap. This project allows users to simulate token swaps, explore liquidity pools, and experience a sleek decentralized finance UI.
 
-## Available Scripts
+🚀 Features
 
-In the project directory, you can run:
+💱 Swap Interface – Buy and sell tokens with a clean swap UI
 
-### `npm start`
+📱 Responsive Design – Works on Desktop & Mobile
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+🎨 Tailwind CSS Styling – Fully styled with modern Tailwind classes
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+🌗 Light/Dark Mode Ready – Extendable for theme support
 
-### `npm test`
+🔗 Social & Footer Links – Connect with GitHub, Twitter, Discord
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+📊 Stats Section – Displays on-chain metrics (volume, LP fees, swappers)
 
-### `npm run build`
+🛠️ Tech Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+React.js ⚛️
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Tailwind CSS 🎨
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Font Awesome (icons)
 
-### `npm run eject`
+Custom Assets (images & logos)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+📷 Screenshots
+Swap Interface
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Dashboard & Metrics
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+🔧 Installation
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Clone the repo and install dependencies:
 
-## Learn More
+# Clone repo
+git clone https://github.com/DEVMONTANNA/Uniswap.git
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Enter project folder
+cd Uniswap
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Install dependencies
+npm install
 
-### Code Splitting
+# Run project
+npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+📂 Project Structure
+src/
+ ├── Components/
+ │   ├── DefiSwap.jsx   # Main DeFi Swap UI
+ │   ├── Header.jsx     # Navbar
+ │   ├── Footer.jsx     # Footer & Links
+ ├── Images/            # Assets (logos, screenshots, icons)
+ ├── App.jsx            # App entry point
+ └── index.js           # React root
 
-### Analyzing the Bundle Size
+🌍 Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+You can deploy this app for free using:
 
-### Making a Progressive Web App
+Vercel → https://vercel.com
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Netlify → https://netlify.com
 
-### Advanced Configuration
+GitHub Pages
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+👨‍💻 Author
 
-### Deployment
+DEVMONTANNA
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+🌐 GitHub: @DEVMONTANNA
 
-### `npm run build` fails to minify
+🐦 Twitter: @Montanna_016
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+💬 Discord: devmontanna#1234
+
+📜 License
+
+This project is licensed under the MIT License.
